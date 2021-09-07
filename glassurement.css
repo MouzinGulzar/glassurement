@@ -17,9 +17,8 @@
 }
 
 .appName {
-  letter-spacing: 2px;
   font-family: cursive;
-  font-size: 30px;
+  font-size: 33px;
   font-weight: bolder;
   color: white;
   position: relative;
@@ -188,7 +187,7 @@
 .outputDetails {
   outline: none;
   margin-top: 20px;
-  width: 51%;
+  width: 37%;
   margin-bottom: 5px;
   font-size: 15px;
   font-weight: bold;
@@ -201,12 +200,12 @@
 }
 
 .totalNumber {
-  width: 10%;
+  width: 13%;
 }
 
 .totalPrice {
   margin-left: 2%;
-  width: 15%;
+  width: 20%;
 }
 
 .hidden {
