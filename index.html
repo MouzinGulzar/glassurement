@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="glassurement.css" />
+    <title>Glassurement</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="appName">Glassurement</div>
+
+      <a href="developer.html">
+        <div class="dots">
+          <p>...</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="main">
+      <input class="inputDetails rateInput" placeholder="Rate" />
+
+      <div class="cols">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input readonly class="colName lCol" />
+        <input readonly class="colName bCol" />
+        <input readonly class="colName nCol" />
+        <input readonly class="colName pCol" />
+        <br />
+      </div>
+
+      <div class="inputDetailsContainer">
+        <div class="row r1" data-row="1">
+          <span>1.&nbsp;</span>
+          <input type="number" placeholder="Lenght" class="inputDetails lr1" />
+          <input type="number" placeholder="Breadth" class="inputDetails br1" />
+          <input
+            type="number"
+            placeholder="No."
+            class="inputDetails inputDetailsNumber nr1"
+          />
+          <input readonly class="inputDetails outputPrice op1 hidden" />
+          <button class="btn cAgain ca1 hidden" data-cab="1">&#x267B;</button>
+          <br />
+        </div>
+      </div>
+
+      <br />
+
+      <div style="text-align: center">
+        <div class="btnsDiv">
+          <input type="button" class="btn calculateBtn" value="Calculate" />
+          <input type="button" class="btn addBtn" value="+" />
+          <input type="button" class="btn removeBtn" value="-" />
+          <input type="reset" class="btn resetBtn" value="Reset" />
+        </div>
+      </div>
+    </div>
+
+    <script src="glassurement.js"></script>
+  </body>
+</html>
