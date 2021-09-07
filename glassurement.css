@@ -66,7 +66,7 @@
 }
 .colName {
   outline: none;
-  width: 25%;
+  width: 20%;
   margin-bottom: 5px;
   font-size: 15px;
   font-weight: bold;
@@ -79,18 +79,18 @@
 }
 
 .nCol {
-  width: 10%;
+  width: 15%;
 }
 
 .pCol {
   margin-left: 2%;
-  width: 15%;
+  width: 20%;
   border-bottom-color: blue;
 }
 
 
 .inputDetails {
-  width: 25%;
+  width: 20%;
   margin-bottom: 5px;
   font-size: 15px;
   border-top: none;
@@ -111,12 +111,12 @@
 }
 
 .inputDetailsNumber {
-  width: 10%;
+  width: 15%;
 }
 
 .outputPrice {
   margin-left: 2%;
-  width: 15%;
+  width: 20%;
   border-bottom-color: blue;
 }
 
