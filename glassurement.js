@@ -65,8 +65,8 @@ addButton.addEventListener("click", function () {
         <div class="row r${r}" data-row="${r}">
         <br>
             <span>${r}.&nbsp;</span>
-            <input type="number" placeholder="Lenght" class="inputDetails lr${r}">
-            <input type="number" placeholder="Breadth" class="inputDetails br${r}">
+            <input type="number" placeholder="L (in inch)" class="inputDetails lr${r}">
+            <input type="number" placeholder="B (in inch)" class="inputDetails br${r}">
             <input type="number" placeholder="No." class=" inputDetails inputDetailsNumber nr${r}">
             <input readonly class="inputDetails outputPrice op${r} hidden">
             <button class="btn cAgain ca${r} hidden" data-cab = "${r}">&#x267B;</button>
